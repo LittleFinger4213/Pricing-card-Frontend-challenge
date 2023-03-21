@@ -1,0 +1,129 @@
+html{
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 19px;
+    font-family: Karla;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+#the-whole-box {
+    border-radius: 7px;
+    box-shadow: 1px 1px 8px -1px rgba(0,0,0,0.61);
+}
+
+#top-box {
+    width: 100%;
+    height: 40%;
+    padding: 25px;
+    margin: 0;
+}
+
+#top-box h3 {
+    margin-top: 10px;
+    color: #2ab2af;
+    font-weight: 700;
+}
+
+#top-box h4 {
+    margin: 0;
+    color: #c0df34;
+}
+
+#first-line{
+    margin-bottom: 0;
+    color: #98a6bd;
+}
+
+#second-line{
+    margin-top: 4px;
+    color: #98a6bd;
+}
+
+#bottom-box{
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+
+
+#down-box-left{
+    display: inline-block;
+
+    width: 50%;
+    height: 292px;
+    background-color: #2ab2af;
+    padding: 25px;
+    vertical-align: top;
+
+}
+
+#price {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#per-month{
+    display: inline-block;
+    opacity: 0.5;
+    font-size: 0.8rem;
+    margin-left: 1px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -3px
+}
+
+#down-box-left p{
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    margin: 20px;
+    position: relative;
+    right: 20px;
+
+    border-radius: 5px;
+    border: none;
+    background-color: #c0df34;
+    color: white;
+    box-shadow: 1px 1px 8px -1px rgba(0,0,0,0.61);
+
+    position: relative;
+    top: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #A9C42D;
+    transform: scale(1.02);
+}
+
+#down-box-right{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    margin: 0;
+    background-color: darkturquoise;
+
+    font-size: 0.9rem;
+}
+
+#down-box-right h4{
+    padding: 5px;
+}
+
+#down-box-right ul{
+    padding: 5px;
+    list-style: none;
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
